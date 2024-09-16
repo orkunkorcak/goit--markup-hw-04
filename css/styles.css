@@ -119,7 +119,7 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.322), rgba(46, 47, 66, 0.322)), url(/images/order-background.jpg);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/order-background.jpg);
   Height: 600px;
   text-align: center;
   margin: 0 auto;
