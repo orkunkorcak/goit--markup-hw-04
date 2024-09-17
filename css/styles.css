@@ -262,6 +262,7 @@ text-align: center;
   line-height:1.5em;
   letter-spacing: 2%;
 }
+
 .our-border{
    border: 1px;
   border-color: #e7e9fc;
@@ -270,7 +271,7 @@ text-align: center;
   height: 120px;
   padding: 32px 16px;
   }
-
+  
 .footer {
   background-color: #2E2F42;
   color:#ffffff;
