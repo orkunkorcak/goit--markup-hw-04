@@ -22,6 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   height: 3330px;
+  width: 1440px;
 }
 .container {
   width: 1158px;
@@ -80,6 +81,10 @@ header{
 .nav-menu :hover,
 .nav-menu :focus {
   color: #404bbf;
+}
+.nav-link::after{
+  content:"";
+  border-bottom: 1px solid #404BBF;
 }
 .nav-menu a{
   font-family:"Ralewey" sans-serif;
