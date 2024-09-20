@@ -246,7 +246,9 @@ text-align: center;
   line-height:1.5em;
   letter-spacing: 2%;
 }
-.social-icons-list{
+.social-icons-list {
+  display:flex;
+   
 }
 
 .our-portofilo-cardset{
