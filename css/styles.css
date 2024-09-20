@@ -125,7 +125,7 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/order-background.jpg);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/order-background.jpg);
   Height: 600px;
   text-align: center;
   margin: 0 auto;
@@ -248,7 +248,17 @@ text-align: center;
 }
 .social-icons-list {
   display:flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding:16px;
    
+}
+.social-icon{
+  width: 32px;
+  fill: #4D5AE5;
+}
+.social-icon:hover{
+  fill: #31d0aa;
 }
 
 .our-portofilo-cardset{
