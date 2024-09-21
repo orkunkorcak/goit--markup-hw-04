@@ -131,7 +131,7 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(https://github.com/orkunkorcak/goit--markup-hw-04/blob/main/images/order-background.jpg);
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(https://github.com/orkunkorcak/goit--markup-hw-04/blob/main/images/order-background.jpg?raw=true);
   Height: 600px;
   text-align: center;
   margin: 0 auto;
