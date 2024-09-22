@@ -145,7 +145,7 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
+  background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
   height: 600px;
   text-align: center;
   margin: 0 auto;
