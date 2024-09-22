@@ -278,7 +278,7 @@ text-align: center;
   width: 32px;
 }
 .social-icon :hover{
-  fill:#31d0aa;
+  --color1:#31d0aa;
 }
 
 .our-portofilo-cardset{
