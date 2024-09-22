@@ -46,7 +46,7 @@ header{
   display: flex;
   max-width: 1158px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
   align-items: center;
   justify-content: space-between;
 }
@@ -95,10 +95,24 @@ header{
   letter-spacing:3%;
   padding: 24px 0;
 }
-.nav-link::after{
-  content:"";
-  color:#4D5AE5;
-  
+.active{
+   position: relative;
+   display: inline-block;
+}
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  transform: scaleX(0); /* Başlangıçta çizgi görünmez */
+  transform-origin: left; /* Soldan başlayarak genişler */
+  transition: transform 0.3s ease-in-out; /* Animasyon süresi ve stili */
+}
+.active:hover::after {
+  transform: scaleX(1); /* Hover sırasında çizgi görünür hale gelir */
 }
 
 .adres {
@@ -131,7 +145,7 @@ header{
 }
 .section-one{
   background-color: #2E2F42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/order-background.jpg);
+  background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/order-background.jpg);
   Height: 600px;
   text-align: center;
   margin: 0 auto;
