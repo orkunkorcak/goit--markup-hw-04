@@ -58,7 +58,8 @@ header{
   line-height: 24px;
   initial-letter: 2%;
   text-decoration: none;
-  margin-right: 76px;
+  width: 115px;
+  height: 24px;
   
 }
 .web-header{
@@ -76,7 +77,9 @@ header{
 .nav-menu {
   list-style-type: none;
   display: flex;
+  width: 261px;
   gap: 40px;
+  color: #2E2F42;
   
 }
 
@@ -275,7 +278,7 @@ text-align: center;
   display:flex;
   justify-content: space-between;
   gap: 8px;
-  padding:16px;
+  padding:16px 16px 0 16px;
    
 }
 .social-icon{
@@ -390,4 +393,10 @@ text-align: center;
 .social-media-footer{
   display:inline-block ;
   margin-left: 120px;
+}
+.social-icons-list-footer{
+  display:flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top:16px;
 }
