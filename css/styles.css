@@ -15,6 +15,10 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 img{
   display: block;
 }
+font{
+  size:1em;
+  line-height: 1,5em;
+}
 section{
   padding: 120px 0;
 }
@@ -43,7 +47,7 @@ header{
 }
 .container-header{
   display: flex;
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   align-items: center;
@@ -121,6 +125,7 @@ header{
 .adres {
   list-style-type: none;
   font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -136,6 +141,7 @@ header{
 .adres a{
   width: 153px;
     text-decoration: none;
+    font-style: normal;
     color:#434455;
 }
 .title-htree{
@@ -366,7 +372,8 @@ text-align: center;
   color:#ffffff;
   height: 312px;
   padding: 100px 0;
-  }
+}
+  
 .footer-logo{
   font-family:"Ralewey" sans-serif;
   text-decoration: none;
@@ -392,6 +399,7 @@ text-align: center;
 }
 .logos-and-p{
   display: inline-block;
+  width: 264px;
 }
 .social-media-footer{
   display:inline-block;
@@ -400,7 +408,6 @@ text-align: center;
 .social-icons-list-footer{
   display:flex;
   justify-content: space-between;
-  position: absolute;
   padding-top:16px;
   gap:16px;
 }
